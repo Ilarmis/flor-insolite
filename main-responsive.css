@@ -1,0 +1,253 @@
+@media(max-width:540px){
+    .com{
+        position: relative;
+        top: 30px;
+        left: 7px;
+    }
+    .menu{
+        padding: 60px;
+    }
+    .recherche{
+        top: -20px;
+        left: 40px;
+    }
+    .plants_posts #eucarcenciel{
+        left: 20px;
+        width: 40%;
+        height: 40%;
+    }
+    .plants_texts #eucarcenciel_text{
+        font-size: 20px;
+        top: -100px;
+        left: 15px;
+    }
+    .plants_posts #orchiduck{
+        left: 60px;
+        width: 40%;
+        height: 200px;
+    }
+    .plants_texts #orchiduck_text{
+        font-size: 20px;
+        top: -100px;
+        left: 70px;
+    }
+    .plants_posts #skeleflower{
+        left: 20px;
+        top: 50px;
+        width: 40%;
+        height: 200px;
+    }
+    .plants_texts #skeleflower_text{
+        font-size: 20px;
+        top: 150px;
+        left: -245px;
+    }
+}
+
+@media(max-width:360px){
+    .com{
+        position: relative;
+        top: 30px;
+        left: 35px;
+    }
+    .menu{
+        padding: 60px;
+    }
+    .recherche{
+        top: -20px;
+        left: 20px;
+    }
+    .plants_posts #eucarcenciel{
+        left: 20px;
+        width: 40%;
+        height: 40%;
+    }
+    .plants_texts #eucarcenciel_text{
+        font-size: 17px;
+        top: -70px;
+        left: 15px;
+    }
+    .plants_posts #orchiduck{
+        left: 60px;
+        width: 40%;
+        height: 173px;
+    }
+    .plants_texts #orchiduck_text{
+        font-size: 20px;
+        top: -70px;
+        left: 65px;
+    }
+    .plants_posts #skeleflower{
+        left: 20px;
+        top: 50px;
+        width: 40%;
+        height: 173px;
+    }
+    .plants_texts #skeleflower_text{
+        font-size: 88%;
+        top: 150px;
+        left: -222px;
+    }
+    .plants_posts #dragon_sum{
+        top: 10px;
+        left: 100px;
+        width: 40%;
+        height: 180px;
+    }
+    .plants_texts #dragon_sum_text{
+        left: -10px;
+    }
+}
+
+@media(max-width:768px){
+    .plants_posts #eucarcenciel{
+        left: 100px;
+    }
+    .plants_texts #eucarcenciel_text{
+        top: -120px;
+        left: 105px;
+    }
+    .plants_posts #orchiduck{
+        left: 200px;
+    }
+    .plants_texts #orchiduck_text{
+        top: -120px;
+        left: 245px;
+    }
+    .plants_posts #skeleflower{
+        left: 100px;
+        top: 70px;
+    }
+    .plants_texts #skeleflower_text{
+        top: 180px;
+        left: -215px;
+    }
+}
+
+@media(max-width:834px){
+    .plants_texts #eucarcenciel_text{
+        top: -120px;
+    }
+    .plants_posts #orchiduck{
+        left: 250px;
+    }
+    .plants_texts #orchiduck_text{
+        top: -120px;
+        left: 300px;
+    }
+    .plants_posts #skeleflower{
+        top: 60px;
+        left: 125px;
+    }
+    .plants_texts #skeleflower_text{
+        top: 170px;
+        left: -190px;
+    }
+    .plants_posts #dragon_sum{
+        top: 60px;
+        left: 250px;
+    }
+    .plants_texts #dragon_sum_text{
+        left: -10px;
+        top: 170px;
+    }
+    .plants_posts #planturtle{
+        top: 350px;
+        left: -325px;
+    }
+    .plants_texts #planturtle_text{
+        left: -510px;
+        top: 450px;
+        font-size: 130%;
+    }
+}
+
+@media(max-width:430px){
+    .plants_posts #eucarcenciel{
+        left: 120px
+    }
+    .plants_texts #eucarcenciel_text{
+        top: -100px;
+        left: 120px;
+    }
+    .plants_posts #orchiduck{
+        top: 270px;
+        left: -50px;
+    }
+    .plants_texts #orchiduck_text{
+        left: -30px;
+        top: 170px;
+    }
+    .plants_posts #skeleflower{
+        top: 320px;
+        left: 120px
+    }
+    .plants_texts #skeleflower_text{
+        top: 420px;
+        left: -140px;
+    }
+    .plants_posts #dragon_sum{
+        left: -80px;
+        top: 600px
+    }
+    .plants_texts #dragon_sum_text{
+        left: 100px;
+        top: 450px
+    }
+    .plants_posts #planturtle{
+        left: 82px;
+        top: 660px;
+    }
+    .plants_texts #planturtle_text{
+        top: 740px;
+        left: -70px
+    }
+    .end{
+        top: 890px
+    }
+}
+
+@media(max-width:390px){
+    .plants_posts #eucarcenciel{
+        left: 100px
+    }
+    .plants_texts #eucarcenciel_text{
+        left: 100px;
+        top: -10px;
+    }
+    .plants_posts #orchiduck{
+        left: -35px
+    }
+    .plants_texts #orchiduck_text{
+        left: -35px;
+        top: 10px;
+    }
+    .plants_posts #skeleflower{
+        left: 100px;
+    }
+    .plants_texts #skeleflower_text{
+        font-size: 15px
+    }
+    .plants_posts #dragon_sum{
+        left: -40px;
+    }
+}
+
+@media(max-width:412px){
+    .plants_texts #eucarcenciel_text{
+        top: -350px;
+        left: 110px;
+    }
+    .plants_posts #orchiduck{
+        left: -40px;
+    }
+    .plants_texts #orchiduck_text{
+        top: -80px;
+    }
+    .plants_texts #skeleflower_text{
+        font-size: 15px;
+        top: 200px
+    }
+}
+
+

@@ -1,0 +1,181 @@
+@font-face{
+    font-family: 'ephesis-regular';
+    src: url(font/ephesis-regular-webfont.woff2) format('woff2'),
+         url(font/ephesis-regular-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html{
+    background: #e0e4b3;
+}
+
+.banner{
+    background-color: #557C55;
+    color: #F2FFE9;
+    font-family: 'ephesis-regular';
+    padding: 5px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.menu{
+    background-color: #3f5c3f;
+    padding: 20px;
+    box-shadow: -0px 5px 9px rgba(0, 0, 0, .3);
+}
+
+.recherche{
+    position: relative;
+    left: 20px;
+}
+
+.com a{
+    text-decoration: none;
+    color: #F2FFE9;
+    font-family: 'ephesis-regular';
+    position: relative;
+    top: -25px;
+    left: -50px;
+    font-size: 25px;
+    font-weight: bold;
+    -webkit-transition: color 1s;
+    transition: color 1s;
+}
+
+.com a:hover{
+    color: #FA7070;
+}
+
+.menu #loupe{
+    width: 22px;
+    height: 22px;
+    float: left;
+}
+
+.menu #search{
+    position: relative;
+    left: 10px;
+}
+
+.com #img_forum{
+    float: right;
+    width: 22px;
+    height: 22px;
+    position: relative;
+    left: -80px;
+    top: -20px;
+}
+
+.com #text_forum{
+    float: right;
+    position: relative;
+    left: -70px;
+}
+
+.com #img_profil{
+    float: right;
+    width: 22px;
+    height: 22px;
+    position: relative;
+    top: -20px;
+    left: -35px;
+}
+
+.com #text_profil{
+    float: right;
+    left: -30px;
+}
+
+.plants_posts{
+    position: relative;
+    top: 100px;
+}
+
+.plants_posts #eucarcenciel{
+    position: relative;
+    left: 125px;
+}
+
+.plants_posts #orchiduck{
+    position: relative;
+    left: 325px;
+}
+
+.plants_posts #skeleflower{
+    position: relative;
+    left: 550px;
+}
+
+.plants_posts #dragon_sum{
+    position: relative;
+    top: 320px;
+    left: -545px;
+}
+
+.plants_posts #planturtle{
+    position: relative;
+    top: 320px;
+    left: -345px;
+}
+
+.plants_texts a{
+    position: relative;
+    top: 110px;
+    font-family: 'ephesis-regular';
+    text-decoration: none;
+    color: #3f5c3f;
+    -webkit-transition: color 1s;
+    transition: color 1s;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.plants_texts a:hover{
+    color: #FA7070;
+}
+
+.plants_texts #eucarcenciel_text{
+    position: relative;
+    left: 133px;
+}
+
+.plants_texts #orchiduck_text{
+    position: relative;
+    left: 370px;
+}
+
+.plants_texts #skeleflower_text{
+    position: relative;
+    left: 680px;
+}
+
+.plants_texts #dragon_sum_text{
+    position: relative;
+    top: 430px;
+    left: -350px;
+}
+
+.plants_texts #planturtle_text{
+    position: relative;
+    top: 430px;
+    left: -90px;
+}
+
+.end{
+    background-color: #3f5c3f;
+    color: #3f5c3f;
+    font-family: 'ephesis-regular';
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    top: 450px;
+}
