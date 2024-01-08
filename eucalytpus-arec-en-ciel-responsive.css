@@ -53,6 +53,12 @@
     #title{
         font-size: 290%;
     }
+    .description #descr_text{
+        font-size: 130%;
+    }
+    .localisation #loc_txt{
+        font-size: 130%
+    }
 }
 
 @media(max-width:428px){
