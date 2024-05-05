@@ -1,0 +1,152 @@
+@font-face{
+    font-family: 'ephesis-regular';
+    src: url(font/ephesis-regular-webfont.woff2) format('woff2'),
+         url(font/ephesis-regular-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+
+}
+
+html{
+    background-color: #e0e4b3;
+}
+
+header{
+    height: 100vh;
+    width: 100vw;
+}
+
+.navbar {
+    position: absolute;    
+    background-color: #557C55;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.navbar a{
+    color: #F2FFE9;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.navbar .logo{
+    font-size: 3em;
+    font-family: 'ephesis-regular';
+}
+
+.navbar .logo:hover{
+    transition: all .2s linear;
+    color: #FA7070;  
+}
+
+.navbar img{
+    width: 22px;
+    height: 22px;
+}
+
+.navbar .nav-links ul{
+    display: flex;
+}
+
+.navbar .nav-links #search{
+    font-size: 0.8em;
+    border-radius: 6px;
+}
+
+.navbar .nav-links ul li{
+    margin: 0 25px;
+}
+
+.navbar .nav-links ul li:hover a{
+    transition: all .2s linear;
+    color: #FA7070;
+}
+
+.navbar .menu{
+    display: none;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 350px;
+    top: 55px;
+}
+
+.mobile-menu{
+    margin-left: 0;
+}
+
+.connect{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 115vh;
+}
+
+section{
+    background-color: #F2FFE9;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    outline: 0;
+    border: 2px solid #557C55;
+    border-radius: 6px;
+}
+
+section h1{
+    text-align: center;
+    color: #557C55;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form input{
+    margin: 5px 0;
+    padding: 5px 5px;
+    outline: 0;
+    border: 1px solid #557C55;
+    border-radius: 6px;
+}
+
+form label{
+    color: #557C55;
+    font-weight: bold;
+}
+
+form input[type='submit']{
+    background-color: #557C55;
+    border: 0;
+    color: #F2FFE9;
+    font-weight: bold;
+    margin-top: 15px;
+    padding: 6px 0;
+}
+
+form input[type='submit']:hover{
+    background-color: #FA7070;
+    transition: all .2s linear;
+}
+
+.erreur{
+    color: #FA7070;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}

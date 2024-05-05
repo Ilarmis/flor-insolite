@@ -1,0 +1,233 @@
+@font-face{
+    font-family: 'ephesis-regular';
+    src: url(font/ephesis-regular-webfont.woff2) format('woff2'),
+         url(font/ephesis-regular-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+
+}
+
+html{
+    background: #e0e4b3;
+}
+
+header{
+    height: 100vh;
+    width: 100vw;
+}
+
+.navbar {
+    position: absolute;    
+    background-color: #557C55;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.navbar a{
+    color: #F2FFE9;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.navbar .logo{
+    font-size: 3em;
+    font-family: 'ephesis-regular';
+}
+
+.navbar img{
+    width: 22px;
+    height: 22px;
+}
+
+.navbar .nav-links ul{
+    display: flex;
+}
+
+.navbar .nav-links #search{
+    font-size: 0.8em;
+    border-radius: 6px;
+}
+
+.navbar .nav-links ul li{
+    margin: 0 25px;
+}
+
+.navbar .nav-links ul li:hover a{
+    transition: all .2s linear;
+    color: #FA7070;
+}
+
+.navbar .menu{
+    display: none;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 350px;
+    top: 55px;
+}
+
+.mobile-menu{
+    margin-left: 0;
+}
+
+.navbar .nav-links .sousmenu{
+    list-style-type: none ;
+    display: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+.navbar .nav-links .sousmenu li{
+    float: none;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid transparent;
+    border-right: 1px solid transparent;
+    color: #FA7070;
+}
+
+.navbar .nav-links .sousmenu li a:hover{
+    transition: all .2s linear;
+    background-color: #FA7070;
+    color: #F2FFE9;
+}
+
+.navbar .sousmenu li a:visited{
+    display: block;
+    text-decoration: none;
+    background-color: #F2FFE9;
+    border-radius: 7px;
+
+}
+
+.navbar .nav-links .sousmenu li a:link {
+    display: block;
+    text-decoration: none;
+    background-color: #F2FFE9;
+    color: #FA7070;
+    border-radius: 7px;
+    font-size: 18px;
+}
+
+.navbar .nav-links ul li:hover .sousmenu{
+    display: block;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+}
+
+.container .title{
+    font-size: 2.2rem;
+    color: #557c55;
+    margin-bottom: 3rem;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.container .plant-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem;
+}
+
+.container .plant-container .plants{
+    text-align: center;
+    padding: 3rem 2rem;
+    background: #F2FFE9;
+    box-shadow: 0.5rem 0.5rem rgba(0, 0, 0, .1);
+    outline: .1rem solid #557c555b;
+    outline-offset: -1.5rem;
+    cursor: pointer;
+}
+
+.container .plant-container .plants:hover{
+    transition: all .2s linear;
+    outline: .2rem solid #557c55;
+    outline-offset: 0;   
+}
+
+.container .plant-container .plants:hover img{
+    transition: all .2s linear;
+    transform: scale(.9);
+}
+
+.container .plant-container .plants:hover a{
+    color: #FA7070;
+    transition: all .2s linear;
+}
+
+.container .plant-container .plants img{
+    width: 18rem;
+    height: 18rem;
+}
+
+.container .plant-container .plants a{
+    padding: .5rem 0;
+    font-size: 2rem;
+    color: #557c55;
+}
+
+.membres{
+    padding-top: 20%;
+}
+
+.membres h1{
+    padding-bottom: 5%;
+    justify-content: center;
+    text-align: center;
+}
+
+.membres p{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.membres p a{
+    color: #557C55;
+}
+
+.membres p a:hover{
+    color: #FA7070;
+    transition: all .2s linear;
+}
+
+.sorry{
+    padding-top: 20%;
+    justify-content: center;
+    text-align: center;
+    color: #FA7070;
+}
+
+.sorry p{
+    padding-bottom: 5%;
+    font-size: 15px;
+}
+
+.sorry a{
+    color: #557C55;
+    font-size: 15px;
+}
+
+.sorry a:hover{
+    color: #FA7070;
+    transition: all .2s linear;
+}
